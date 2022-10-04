@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bree+Serif&family=Josefin+Sans&family=K2D&family=Open+Sans&family=Poppins&family=Roboto&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D', sans-serif;
+}
+
+#home {
+    width: 100%;
+    height: 90vh;
+}
+
+.welcomeContainer {
+    width: 90%;
+    margin: 2rem auto;
+    height: 95vh;
+}
+
+.welcomeTitle {
+    padding: 10px 15px;
+}
+
+.welcomeTitle h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.welcomeSubTitle {
+    padding: 10px 15px;
+}
+
+.welcomeSubTitle p {
+    text-align: center;
+    color: #ccc;
+}
+
+.welcomeImage {
+    width: 600px;
+    margin: 1rem auto;
+}
+
+.welcomeImage img {
+    width: 100%;
+    object-fit: contain;
+    -o-object-fit: contain;
+}
+
+.welcomeBtns {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.welcomeBtns a {
+    text-decoration: none;
+    padding: 20px 186px;
+    border-radius: 25px;
+    color: #000;
+}
+
+.welcomeBtns .btns {
+    width: 80%;
+    margin: 0 0 0 10rem;
+}
+.welcomeBtns .login {
+    background: #3b3be8;
+    color: #fff;
+    transition: 350ms ease-in-out;
+}
+
+.welcomeBtns .login:hover {
+    background: #27279c;
+    transition: 350ms ease-in-out;
+}
+.welcomeBtns .signup {
+    background: #ff5252;
+    transition: 350ms ease-in-out;
+}
+
+.welcomeBtns .signup:hover {
+    background: #ff5252;
+    transition: 350ms ease-in-out;
+}
+
+/* LOGIN PANEL */
+
+
+#loginHome {
+    width: 100%;
+    height: 90vh;
+}
+
+.loginContainer {
+    width: 90%;
+    margin: 2rem auto;
+    height: 95vh;
+}
+
+.loginTitle {
+    padding: 10px 15px;
+}
+
+.loginTitle h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.loginSubTitle {
+    padding: 10px 15px;
+}
+
+.loginSubTitle p {
+    text-align: center;
+    color: #ccc;
+}
+
+.formContainer {
+    width: 30%;
+    margin: 1rem auto;  
+}
+
+.loginForm {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.loginForm label {
+    display: block;
+}
+
+.loginForm input {
+    display: block;
+    padding: 15px 20px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    background: none;
+    background: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.loginForm button {
+    background: none;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background: #3b3be8;
+    transition: 350ms ease-in-out;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background: #27279c;
+    transition: 350ms ease-in-out;
+}
+
+.loginContainer .signup {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.loginContainer .signup p{
+    text-align: center;
+}
+
+.loginContainer .signup p a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* SIGNUP PANEL */
+
+
+#signupHome {
+    width: 100%;
+    height: 90vh;
+}
+
+.signupContainer {
+    width: 90%;
+    margin: 2rem auto;
+    height: 95vh;
+}
+
+.signupTitle {
+    padding: 10px 15px;
+}
+
+.signupTitle h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.signupSubTitle {
+    padding: 10px 15px;
+}
+
+.signupSubTitle p {
+    text-align: center;
+    color: #ccc;
+}
+
+.formContainer {
+    width: 30%;
+    margin: 1rem auto;  
+}
+
+.signupForm {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.signupForm label {
+    display: block;
+}
+
+.signupForm input {
+    display: block;
+    padding: 15px 20px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    background: none;
+    background: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.signupForm button {
+    background: none;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background: #ff5252;
+    transition: 350ms ease-in-out;
+    cursor: pointer;
+}
+
+.signupForm button:hover {
+    background: #b116ac;
+    transition: 350ms ease-in-out;
+}
+
+.signupContainer .login {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.signupContainer .login p{
+    text-align: center;
+}
+
+.signupContainer .login p a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+table {
+    width: 90%;
+    margin: 1rem auto;
+    box-shadow: 0 0 5px #ccc;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+table tr {
+    
+    box-shadow: 0 5px 5px #ccc;
+}
+
+.editForm
+{
+    width: 40%;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+}
+
+.editForm input {
+    display: block;
+    padding: 10px 15px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    background: none;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.editForm input[type=submit] {
+    background: #E6194e;
+    color: #fff;
+    transition: 350ms ease-in-out;
+}
+
+.centerPanel {
+    width: 90%;
+    margin: 0 auto;
+}
+.cardBox {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.cardBox .card {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBox .card .numbers {
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #287bff;
+}
+
+.cardBox .card .cardName {
+    color: #222;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.cardBox .card .iconBx {
+    font-size: 3.5em;
+    color: #222;
+}
+
+.cardBox .card:hover {
+    background: #287bff;
+}
+
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBx {
+    color: #fff;
+}
+
+.stats {
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.stats a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px 15px;
+    background: #287bff;
+    border-radius: 5px;
+}
